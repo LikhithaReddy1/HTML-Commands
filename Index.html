@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- for proper mobile view -->
+    <title>HTML Practice</title>
+    <link rel="stylesheet" href="CSS/style.css"> <!-- link css file -->
+    <base href="https://google.com/">
+</head>
+<body>
+
+    <div class="flex-container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <a href="Index.html">Click here!</a>
+
+    <header>
+        <hgroup>
+            <h1>My Blog Website</h1>
+            <p>Learning HTML step by step</p>
+        </hgroup>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="articles">Articles</a>
+            <a href="contact">Contact</a>
+        </nav>
+
+        <search>
+            <form>
+                <input type="search" placeholder="Search articles">
+                <button type="submit">Search</button>
+            </form>
+        </search>
+    </header>
+
+        <main id="home">
+            <section id="articles">
+                <h2>
+                    Latest Articles
+                </h2>
+                <article>
+                    <h3>what is html?</h3>
+                    <p>HTML is used to structure web pages.</p>
+                </article>
+
+                <article>
+                    <h3>what is CSS?</h3>
+                    <p>CSS is used to style web pages.</p>
+                </article>
+            </section>
+
+            <aside>
+                <h2>Related links</h2>
+                <p>Learn javascript and react after html and css.</p>
+            </aside>
+        </main>
+
+        <footer id="contact">
+            <p>&copy; 2026 My Blog Website</p>
+
+            <address>
+                Contact: <a href="mailto:likhitha@example.com">likhitha@example.com</a><br>
+                Location: Seattle, WA
+            </address>
+        </footer>
+
+        <h1>Text Content Elements Demo</h1>
+
+        <hr> <!-- this craetes a seperating line between para level elements-->
+
+        <p> this is a para</p>
+
+        <h2> Blockquote</h2>
+        <blockquote cite="https://www.google.com">
+            Success is the sum of small efforts 
+        </blockquote>
+
+        <hr>
+
+        <h2>Unordered list</h2>
+        <ui>
+            <li>Home</li>
+            <li>About</li>
+            <li>Section</li>
+            <li>Main</li>
+            <li>Contact</li>
+        </ui>
+
+        <hr>
+
+        <h2>Ordered list</h2>
+        <ol>
+            <li>Home</li>
+            <li>About</li>
+            <li>Section</li>
+            <li>Main</li>
+            <li>Contact</li>
+        </ol>
+
+        <hr>
+
+        <h2>Menu</h2> <!-- same as ui; semantic to unordered list-->
+        <menu>
+            <li>Home</li>
+            <li>About</li>
+            <li>Section</li>
+            <li>Main</li>
+            <li>Contact</li>
+        </menu>
+
+        <hr>
+
+        <h2>Description list</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd> <!--provides description value of preceeding desc text-->
+
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+
+            <dt>JS</dt>
+            <dd>JavaScript</dd>
+        </dl>
+
+        <hr>
+
+        <h2>Figure and Figure Caption</h2>
+        <figure>
+            <img src="https://via.placeholder.com/200" alt="sample image">
+
+            <figcaption>
+                Figure 1: Sample Placeholder Image
+            </figcaption>
+        </figure>
+
+        <hr>
+
+        <h2>Preformatted Text</h2>
+
+        <pre>
+            Line 1
+                Line 2
+                    Line 3
+        </pre>
+
+        <hr>
+        <!-- div -->
+        <h2>Div Container</h2>
+        <div>
+            <p>This paragraph is inside a div.</p>
+            <p>Div is just a generic container.</p>
+        </div>
+        <hr>
+        <!--Inline Text Semantics-->
+
+        <p>
+            Visit <a href="https://google.com">Google</a>
+            <a href="kesaralikhi3066@gmail.com">Email</a>
+        </p>
+        <hr>
+        <p>
+            <abbr title="HyperText Markup Language">HTML</abbr> is used for web pages.
+        </p>
+        <hr>
+        <p>This is <b>bold</b> text.</p>
+        <p>This is <strong>important</strong> text.</p>
+        <p>This is <em>emphasized text</em></p>
+        <p>This is <i>Italic text.</i></p>
+        <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.</p>
+        <p>Use <code>System.out.println()</code> in Java.</p>
+        <p>Search results contain <mark style="background-color: aquamarine">important information</mark></p> <!--highlights text in yellow by default-->
+        <p>
+            Steve Jobs said
+            <q>Stay hungry, stay foolish.</q> <!--Adds quotations " "-->
+        </p>
+        <p>Price: <s>$100</s> $80</p> <!--Strikethrough-->
+        <p>Price: <del>$100</del> $80</p> 
+        <p>Price: <ins>$100</ins> $80</p> <!--underline-->
+
+        <hr>
+
+        <p>
+            Water formula: H<sub>2</sub>O
+        </p>
+
+        <p>
+            Einstein formula: E=mc<sup>2</sup>
+        </p>
+
+        <p>
+            Exam Date: <time datetime="2026-28-03">March 28, 2026</time>
+        </p>
+
+        <p>
+            <u>Misspelled Word</u>
+        </p>
+        <p>
+            Let <var>x</var> = 10
+        </p>
+
+        <p>
+            Program Output:
+            <samp>Hello World</samp>
+        </p>
+
+        <p>
+            Copyright <small>&copy; 2026 Likhitha</small>
+        </p>
+
+        <p>
+            This is a <span style="color: red;">Red word</span>
+        </p>
+
+        <p>
+            <cite>Harry Potter and the Goblet of Fire</cite>
+        </p>
+
+        <p>
+            Product ID: <data value="12345">Laptop</data>
+        </p>
+
+        <p>
+            <dfn>HTML</dfn> is the standard markup language for web pages.
+        </p>
+
+        <p>
+            First Line <br>
+            Second Line <br>
+            Third Line <br>
+        </p>
+
+        <hr>
+
+        <!-- Image and Multimedia Demo-->
+        <h2>Image</h2>
+        <img src="data:image/png;base64,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"
+        alt="linkedin image"
+        width="300"
+        >
+
+        <!--
+        <h2>Image Map with clickable Areas</h2>
+        <img src="https://geology.com/world/public-domain-world-country-outline-map.gif"
+        alt="clickable map image"
+        usemap="#sample-map"
+        width="300"
+        >
+        -->
+
+        <!-- map and area -->
+        <h2>2. Image Map with Clickable Areas</h2>
+
+        <img 
+            src="https://geology.com/world/public-domain-world-country-outline-map.gif"
+            alt="Clickable image map"
+            usemap="#sample-map"
+            width="300"
+        >
+
+        <map name="sample-map">
+            <!--left area-->
+            <area 
+                shape="rect"
+                coords="0,0,150,200"
+                href="https://google.com"
+                alt="Left side link"
+                target="_blank"
+            >
+            
+            <!--right area-->
+            <area 
+                shape="rect"
+                coords="150,0,300,200"
+                href="https://youtube.com"
+                alt="Right side link"
+                target="_blank" 
+            > <!-- target = blank opens link in a new tab-->
+        </map>
+
+        <p>
+            Click the left half of the image to open Google.
+            Click the right half to open YouTube.
+        </p>
+
+        <!--audio and video-->
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <hr>
+        <video width="1400" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+
+            <track
+                src="subtitles.vtt"
+                kind="subtitles"
+                srclang="en"
+                label="English"
+            >
+            Your browser does not support the video element.
+        </video>
+
+        <hr>
+
+        <!-- Tables-->
+        <table border="1">
+            <caption>Employee Salary Report</caption>
+
+            <colgroup>
+                <col span="1" style="background-color: brown;">
+                <col span="1" style="background-color: yellowgreen;">
+                <col span="1" style="background-color: pink;">
+            </colgroup>
+
+            <thead>
+                <tr>
+                    <th style="width: 200px;">Employee ID</th>
+                    <th style="width: 200px;">Name</th>
+                    <th style="width: 200px;">Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 100px;">
+                    <td>101</td>
+                    <td>John</td>
+                    <td>120000</td>
+                </tr>
+                <tr>
+                    <td>101</td>
+                    <td>sara</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td>101</td>
+                    <td>will</td>
+                    <td>90000</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr style="height: 200px;">
+                    <td colspan="2">Total Employees</td>
+                    <td>3</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!--forms-->
+        <form>
+            <fieldset>
+                <legend>Personal infromation</legend>
+                <label for="name">Name: </label>
+                <input 
+                    type="text"
+                    id="name"
+                    placeholder="Enter your Name"
+                >
+
+                <br><br>
+                <label for="email">Email: </label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your Email"
+                >
+
+                <br><br>
+                <label for="city">City: </label>
+                <input 
+                    list="cities"
+                    id="city"
+                    placeholder="Enter your City"
+                >
+                <datalist id="cities">
+                    <option value="Seattle"></option>
+                    <option value="New york"></option>
+                    <option value="Houston"></option>
+                    <option value="San Francisco"></option>
+                </datalist>
+                <br><br>
+
+                <label for="skill">Skill: </label>
+                <select id="skill">
+                    <optgroup label="frontend">
+                        <option>HTML</option>
+                        <option>css</option>
+                        <option>JavaScript</option>
+                    </optgroup>
+                    <optgroup label="backend">
+                        <option>Node.JS</option>
+                        <option>SpringBoot</option>
+                        <option>Java</option>
+                    </optgroup>
+                </select>
+                <br><br>
+
+                <label for="comments">Comments: </label>
+                <br>
+                <textarea name="comments" id="comments" rows="40" cols="50"></textarea>
+                <br><br>
+
+                Profile Completion:
+                <meter
+                    value="70"
+                    min="0"
+                    max="100"
+                >
+                70%
+                </meter>
+                <br><br>
+
+                File Upload progress:
+                <progress
+                    value="60"
+                    max="100"
+                >
+                    60%
+                </progress>
+                <br><br>
+
+                <label>
+                    Age:
+                    <input 
+                        type="number"
+                        value="25"
+                        oninput="result.value=this.value*10" 
+                > <!--javascript to store result as 25*10 = 250 into output-->
+                </label>
+                <br>
+                Month Lived:
+                <output name="result">
+                    250
+                </output>
+            </fieldset>
+
+        </form>
+        
+
+    
+</body>
+</html>
